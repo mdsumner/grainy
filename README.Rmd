@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# grainy
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of grainy is to encapsulate the logic of a raster grid in an object. 
+
+## Installation
+
+You can install the development version of grainy like so:
+
+``` r
+remotes::install_github("mdsumner/grainy")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(grainy)
+g <- grain$new(c(360, 180), c(-180, 180, -90, 90))
+g$cell_from_xy(cbind(0, 0))
+
+## compare to raster/terra/stars/etc
+#library(raster)
+#cellFromXY(raster(extent(-180, 180, -90, 90), ncols = 360, nrows = 180), cbind(0, 0))
+```
+
+## Code of Conduct
+  
+Please note that the grainy project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
