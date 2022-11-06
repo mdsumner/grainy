@@ -137,7 +137,7 @@ v <- vapour::vapour_warp_raster_int(localfiles$dsn, extent = region$extent, dime
 #v <- vapour::vapour_warp_raster_int(u, extent = region$extent, dimension = region$dimension)
 ```
 
-\`\`\` \## Code of Conduct
+## Code of Conduct
 
 Please note that the grainy project is released with a [Contributor Code
 of

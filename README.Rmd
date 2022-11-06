@@ -119,7 +119,6 @@ v <- vapour::vapour_warp_raster_int(localfiles$dsn, extent = region$extent, dime
 
 
 
-```
 ## Code of Conduct
   
 Please note that the grainy project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.

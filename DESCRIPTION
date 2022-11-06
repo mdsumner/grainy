@@ -14,3 +14,5 @@ Imports:
     vaster
 URL: https://github.com/mdsumner/grainy
 BugReports: https://github.com/mdsumner/grainy/issues
+Remotes: hypertidy/vaster
+
