@@ -239,7 +239,10 @@ grain <- R6Class("grain",
                     },
                     #' @return hello
                     greet = function() {
-                      cat(paste0("Hello, my name is ", self$dimension, ".\n"))
+                      cat("grain object\n")
+                      cat(sprintf("Dimension:  %ix%i\n", self$dimension[1], self$dimension[2]))
+                      ex <- formatC(self$extent)
+                      cat(sprintf("   Extent:  %s, %s, %s, %s (xmin,xmax,ymin,ymax)\n", ex[1L], ex[2L], ex[3L], ex[4L]))
                     }
                   )
 )

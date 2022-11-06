@@ -4,9 +4,9 @@
 \name{grainy-package}
 \alias{grainy}
 \alias{grainy-package}
-\title{grainy: What the Package Does (One Line, Title Case)}
+\title{grainy: Raster Stuff}
 \description{
-What the package does (one paragraph).
+Encapsulate raster grid logic in an object, an object comprised of dimension and extent: a discretized domain. Create coordinates, query cell index, snap or align extents.
 }
 \seealso{
 Useful links:
@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Michael Sumner \email{mdsumner@gmail.com}
 
 }
 \keyword{internal}
